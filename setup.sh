@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./scripts/register.sh --reset -p yes --credential yes
+sudo podman run --rm --privileged multiarch/qemu-user-static --reset -p yes --credential yes
